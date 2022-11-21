@@ -6,7 +6,7 @@ PImage pic, pic2;
 //
 void setup()
 {
-  size(400, 400); //Landscape
+  size(800, 600); //Landscape
   //Copy Display Algorithm from Hello World
   //fullScreen(); //displayWidth, displayHeigth
   appWidth = width;
@@ -20,8 +20,8 @@ void setup()
 //
 void draw() 
 { 
-  rect(100, 50, 200, 100);
-  rect(150, 100, 200, 100);
+  rect(200, 100, 400, 150);
+  rect(200, 350, 400, 150);
   
 }//End draw
 //
